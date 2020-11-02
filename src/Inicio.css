@@ -1,0 +1,19 @@
+.inicio{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.inicio > img {
+    width: 100%; 
+}
+
+.inicio > a {
+    padding: 20px;
+    border-radius: 99px;
+    background-color: aquamarine;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
