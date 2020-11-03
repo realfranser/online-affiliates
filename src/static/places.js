@@ -13,6 +13,20 @@ const places = [
         imageUrl: process.env.PUBLIC_URL + '/assets/island2.jpg',
         time: 1500,
     },
+    {
+        title: 'Trading 212',
+        description:
+            "Trading 212 is an online broker that will give you 2 free shares valued between 10$ and 120$. Use the code: s3oij1 to register.",
+        imageUrl: process.env.PUBLIC_URL + '/assets/trading212.jpg',
+        time: 1500,
+    },
+    {
+        title: 'Plus 500',
+        description:
+            "Plus 500 is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: ksj29d4 to register.",
+        imageUrl: process.env.PUBLIC_URL + '/assets/plus500.jpg',
+        time: 1500,
+    },
 ];
 
 export default places;
