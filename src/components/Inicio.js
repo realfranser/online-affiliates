@@ -1,7 +1,7 @@
 import React from 'react'
 import './Inicio.css';
 import makeMoneyOnline from './images/makeMoneyOnline.jpg';
-import { finvizUrl } from './links'
+import { finvizUrl } from '../static/links'
 
 function Inicio() {
     return (

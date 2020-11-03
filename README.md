@@ -6,6 +6,12 @@ si tienes alguna otra idea clona los proyectos que quieras y los utilizamos.
 -Framework: react.js v14.15.0 x64    link instalación -> https://nodejs.org/es/download/
 
 -Iconos para react: https://material-ui.com/
+    >npm install @material-ui/core
+    >npm install @material-ui/icons
+
+-React scroll (UI): https://www.npmjs.com/package/react-scroll
+
+-Posibles nombres web: www.onlineafiliate.com
 
 # Getting Started with Create React App
 
