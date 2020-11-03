@@ -1,7 +1,4 @@
--Descárgate el plugin Live Share en VSCode para poder hacer los workspaces colaborativos en tiempo real.
-
--He clonado un repo de gitHub que hace una página web con una interfaz similar a la que estoy buscando,
-si tienes alguna otra idea clona los proyectos que quieras y los utilizamos.
+## Docu and tools
 
 -Framework: react.js v14.15.0 x64    link instalación -> https://nodejs.org/es/download/
 
@@ -12,6 +9,10 @@ si tienes alguna otra idea clona los proyectos que quieras y los utilizamos.
 -React scroll (UI): https://www.npmjs.com/package/react-scroll
 
 -Posibles nombres web: www.onlineafiliate.com
+
+## Ideas
+
+Hacer un sistema de creadores de contenido que con su link la gente pueda acceder mediante sus códigos y el 20% de esos códigos poner el nuestro.
 
 # Getting Started with Create React App
 
