@@ -16,7 +16,7 @@ const places = [
     {
         title: 'Trading 212',
         description:
-            "Trading 212 is an online broker that will give you 2 free shares valued between 10$ and 120$. Use the code: s3oij1 to register.",
+            "Trading 212 is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: s3oij1 to register.",
         imageUrl: process.env.PUBLIC_URL + '/assets/trading212.jpg',
         time: 1500,
     },
