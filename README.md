@@ -14,7 +14,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Examples from other developers
 
 -Airbnb: https://github.com/CleverProgrammer/airbnb-clone
+
 -Amazon: https://github.com/CleverProgrammers/react-challenge-amazon-clone
+
+-NiceUI: https://github.com/Chensokheng/island
 
 ## Available Scripts
 
