@@ -1,12 +1,13 @@
 ## Docu and tools
 
--Framework: react.js v14.15.0 x64    link instalación -> https://nodejs.org/es/download/
+-Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
 
--Iconos para react: https://material-ui.com/
-    >npm install @material-ui/core
-    >npm install @material-ui/icons
+-Iconos para react: https://material-ui.com/ >npm install @material-ui/core >npm install @material-ui/icons
 
 -React scroll (UI): https://www.npmjs.com/package/react-scroll
+
+-Bootstrap: + jquery@3.5.1 popper.js@1.16.1
+bootstrap@4.5.3
 
 -Posibles nombres web: www.onlineafiliate.com
 

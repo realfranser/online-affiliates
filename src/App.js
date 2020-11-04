@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 import Header from './components/Header';
 import PlaceToVisit from './components/PlaceToVisit';
+import PlaceToVisit2 from './components/PlaceToVisit2';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,7 +19,12 @@ export default function App() {
     <div className={classes.root}>
       <CssBaseline />
       <Header />
-      <PlaceToVisit />
+      {/* En un futuro se podra implementar un grid para limitar el numero de tarjetas por fila,
+       de momento lo ponemos en elementos diferentes */}
+      <div className="placesToVisit">
+        <PlaceToVisit2 className="placeToVisit"/>       
+        <PlaceToVisit2 className="placeToVisit"/>       
+      </div>
     </div>
   );
 }
