@@ -18,8 +18,6 @@ export default function App() {
     <div className={classes.root}>
       <CssBaseline />
       <Header />
-      {/* En un futuro se podra implementar un grid para limitar el numero de tarjetas por fila,
-       de momento lo ponemos en elementos diferentes */}
       <div className="placesToVisit">
         <PlaceToVisit className="placeToVisit"/>       
       </div>
