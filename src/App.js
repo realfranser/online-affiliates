@@ -11,9 +11,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },
-}));
+}));asses = useStyles();
 export default function App() {
-  const classes = useStyles();
+  const cl
   return (
     <div className={classes.root}>
       <CssBaseline />
