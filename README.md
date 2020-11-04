@@ -14,7 +14,7 @@ bootstrap@4.5.3
 
     >npm install jquery popper.js bootstrap
 
--Posibles nombres web: www.onlineafiliate.com
+-Posibles nombres web: www.onlineaffiliate.com
 
 ## Ideas
 
