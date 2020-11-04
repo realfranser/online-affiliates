@@ -32,7 +32,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 -NiceUI: https://github.com/Chensokheng/island
 
--LoginAndResponsive: https://www.youtube.com/watch?v=I2UBjN5ER4s
+-LoginAndResponsive: https://www.youtube.com/watch?v=I2UBjN5ER4s,
+https://www.youtube.com/watch?v=3nLTB_E6XAM
 
 ## Available Scripts
 
