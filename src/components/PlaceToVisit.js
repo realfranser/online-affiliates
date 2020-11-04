@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import ImageCard from './ImageCard';
 import places from '../static/places';
 import useWindowPosition from '../hook/useWindowPosition';
+import '../App.css'
+
 const useStyles = makeStyles((theme) => ({
     root: {
         minHeight: '100vh',
@@ -19,18 +21,22 @@ export default function () {
     const checked = useWindowPosition('header');
     return (
         <div className={classes.root} id="place-to-visit">
-            <div>
-            <ImageCard place={places[0]} checked={checked} />
-            <ImageCard place={places[1]} checked={checked} />    
-            </div>
-            <div>
-            <ImageCard place={places[2]} checked={checked} />
-            <ImageCard place={places[3]} checked={checked} />    
-            </div>
-            <div>
-            <ImageCard place={places[4]} checked={checked} />
-            <ImageCard place={places[5]} checked={checked} />    
-            </div>
+            <table>
+                <td class='bid-floor-col'>
+                    <div class='gridContainer'>
+                        <ImageCard place={places[0]} checked={checked} />
+                        <ImageCard place={places[1]} checked={checked} /> 
+                    </div>
+                    <div class='gridContainer'>
+                        <ImageCard place={places[2]} checked={checked} />
+                        <ImageCard place={places[3]} checked={checked} /> 
+                    </div>
+                    <div class='gridContainer'>
+                        <ImageCard place={places[4]} checked={checked} />
+                        <ImageCard place={places[5]} checked={checked} /> 
+                    </div>
+                </td>
+            </table>
         </div>
     );
 }
