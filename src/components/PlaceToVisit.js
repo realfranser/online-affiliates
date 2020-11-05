@@ -25,14 +25,20 @@ export default function () {
                 <td class='bid-floor-col'>
                     <div class='gridContainer'>
                         <ImageCard place={places[0]} checked={checked} />
+                    </div>
+                    <div class='gridContainer'>
                         <ImageCard place={places[1]} checked={checked} /> 
                     </div>
                     <div class='gridContainer'>
-                        <ImageCard place={places[2]} checked={checked} />
+                        <ImageCard place={places[2]} checked={checked} /> 
+                    </div>
+                    <div class='gridContainer'>
                         <ImageCard place={places[3]} checked={checked} /> 
                     </div>
                     <div class='gridContainer'>
-                        <ImageCard place={places[4]} checked={checked} />
+                        <ImageCard place={places[4]} checked={checked} /> 
+                    </div>
+                    <div class='gridContainer'>
                         <ImageCard place={places[5]} checked={checked} /> 
                     </div>
                 </td>

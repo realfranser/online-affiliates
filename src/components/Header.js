@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: 'Nunito',
     },
     appbar: {
-        background: 'none',
+        background: 'white',
     },
     appbarWrapper: {
         width: '80%',
@@ -30,16 +30,24 @@ const useStyles = makeStyles((theme) => ({
     },
     colorTextGreen: {
         color: '#85bb65',
+        fontSize: '4.5rem',
+        'line-height': 1.3,
     },
     colorTextBlack: {
         color: '#000000',
+        fontSize: '4.5rem',
+        //'line-height': 1.3,
+    },
+    colorTextWhite: {
+        color: '#fff',
     },
     container: {
         textAlign: 'center',
     },
     title: {
         color: '#000000',
-        fontSize: '4.5rem',
+        fontSize: '3.5rem',
+        'line-height': 1.0,
     },
     goDown: {
         color: '#85bb65',
@@ -82,7 +90,9 @@ export default function Header() {
             <AppBar className={classes.appbar} elevation={0}>
                 <Toolbar className={classes.appbarWrapper}>
                     <h1 className={classes.appbarTitle}>
-                        Online<span className={classes.colorTextGreen}>Affiliate</span>
+                      {/*<span className={classes.colorTextBlack}>Online</span>
+                      <span className={classes.colorTextGreen}>Affiliate</span>*/}
+                      <img src={process.env.PUBLIC_URL + "oalogo.ico"} style={{height: 50}} />
                     </h1>
                     <IconButton>
                         <SortIcon className={classes.icon} />
@@ -98,11 +108,12 @@ export default function Header() {
                 <div className={classes.container}>
                     <h1 className={classes.title}>
                         Welcome to <br />
-            Online<span className={classes.colorTextGreen}>Affiliate</span>
-                    <br />
+                        <span className={classes.colorTextBlack}>Online</span>
+                        <span className={classes.colorTextGreen}>Affiliate</span>
                     <h1/>
                     <SearchBar />
                     </h1>
+                    <br />
                     <Scroll to="place-to-visit" smooth={true}>
                         <IconButton>
                             <ExpandMoreIcon className={classes.goDown} />
