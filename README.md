@@ -1,3 +1,11 @@
+## Cambios realizados Pablo 05/11
+
+-Cuenta correo compartida creada: onlineaffiliateweb@gmail.com
+
+-Logo provisional de la empresa creado (carpeta public, nombre: favicon.ico)
+
+-Favicon de la página cambiado (se puede cambiar desde index.html en el <head>)
+
 ## Docu and tools
 
 -Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
