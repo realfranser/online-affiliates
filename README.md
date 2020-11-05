@@ -30,6 +30,8 @@ bootstrap@4.5.3
 
 Hacer un sistema de creadores de contenido que con su link la gente pueda acceder mediante sus códigos y el 20% de esos códigos poner el nuestro.
 
+Poner un boton encima de cada código de referido y cuando se pulse este desaparezca gradualmente y muestre el código.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
