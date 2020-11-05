@@ -15,43 +15,43 @@ const places = [
     },*/
     {
         title: 'Trading 212',
-        description:
-            "Trading 212 is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: s3oij1 to register.",
+        description: "Trading 212 is an online broker that will give you 2 free shares valued between 10$ and 120$ now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/trading212.jpg',
         time: 1500,
     },
     {
         title: 'Plus 500',
-        description:
-            "Plus 500 is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: ksj29d4 to register.",
+        description: "Plus 500 is an online broker that will give you 2 free shares valued between 10$ and 120$ now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/plus500.jpg',
         time: 1500,
     },
     {
         title: 'Webull',
-        description:
-            "Webull is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: ksj29d4 to register.",
+        description: "Webull is an online broker that will give you 2 free shares valued between 10$ and 120$ now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/weBull.jpg',
         time: 1500,        
     },
     {
         title: 'Yotta Savings',
-        description:
-            "Yotta Savings is an online bank that will give you 100 free tickets valued in 2500$ worth of savings now! This tickets can be used in weekly contests and get between 5$ up to 300$. Use the code: webafiliate to register.",
+        description: "Yotta Savings is an online bank that will give you 100 free tickets valued in 2500$ worth of savings now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/yottaSavings.png',
         time: 1500,
     },
     {
         title: 'Robinhood',
-        description:
-            "Robinhood is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: ksj29d4 to register.",
+        description: "Robinhood is an online broker that will give you 2 free shares valued between 10$ and 120$ now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/robinhood.png',
         time: 1500,        
     },
     {
         title: 'eToro',
-        description:
-            "eToro is an online broker that will give you 2 free shares valued between 10$ and 120$ now! Use the code: ksj29d4 to register.",
+        description: "eToro is an online broker that will give you 2 free shares valued between 10$ and 120$ now!",
+        code: "CODIGO",
         imageUrl: process.env.PUBLIC_URL + '/assets/eToro.png',
         time: 1500,        
     },
