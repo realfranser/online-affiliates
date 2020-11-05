@@ -1,6 +1,14 @@
 ## Cambios realizados Fran 05/11
 
+¡¡¡¡¡¡IMPORTANTE!!!!!! -> guarda tus cambios en otros archivos y haz git pull, después introduce tus cambios, sino habrá conflictos git
+
 -Creado archivo updates.md para guardar los cambios realizados.
+
+-Cabecera rectangular blanca para que se vea correctamente aunque bajes por la página
+
+-Cajita de introducir código (si introduces letras genera error por ahora)
+
+-Actualizado el logo en la barra de arriba (luego decidimos si queremos cambiarlo)
 
 ## Cambios realizados Pablo 05/11
 
