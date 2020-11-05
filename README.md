@@ -41,6 +41,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -LoginAndResponsive: https://www.youtube.com/watch?v=I2UBjN5ER4s,
 https://www.youtube.com/watch?v=3nLTB_E6XAM
 
+-1.0 example: https://tradingapps.org/trading-apps-with-free-bonus/
+
 ## Available Scripts
 
 In the project directory, you can run:
