@@ -6,6 +6,9 @@
 
 -Favicon de la página cambiado (se puede cambiar desde index.html en el head)
 
+-Se ha modificado la forma de la que se muestran los códigos para que sean mas visuales (falta retocarlos para que estén mas acordes a la página)
+    -Mirar en el apartado de ideas la referente al boton que cubra el codigo
+    
 ## Docu and tools
 
 -Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
@@ -31,6 +34,8 @@ bootstrap@4.5.3
 Hacer un sistema de creadores de contenido que con su link la gente pueda acceder mediante sus códigos y el 20% de esos códigos poner el nuestro.
 
 Poner un boton encima de cada código de referido y cuando se pulse este desaparezca gradualmente y muestre el código.  
+
+Hacer un footer donde poner algunos apartados genéricos de la pagina web (RRSS, Acerca de, contacto...) lo miro mañana 6/11, hoy no he podido
 
 # Getting Started with Create React App
 
