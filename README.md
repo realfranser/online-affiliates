@@ -4,7 +4,7 @@
 
 -Logo provisional de la empresa creado (carpeta public, nombre: favicon.ico)
 
--Favicon de la página cambiado (se puede cambiar desde index.html en el <head>)
+-Favicon de la página cambiado (se puede cambiar desde index.html en el head)
 
 ## Docu and tools
 
