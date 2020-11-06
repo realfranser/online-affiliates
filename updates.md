@@ -1,3 +1,9 @@
+## Cambios realizados Pablo 06/11
+
+- Al hacer el merge dejamos subido a github la última versión con los cambios aplicados en ambas versiones.
+
+- He encontrado un "problema" con la idea de hacer un boton que copie los códigos, necesitaríamos codificar a mano los X botones y asignar diferentes IDs a cada código que queramos copiar. Mando captura del código por WhatsApp.
+
 ## Cambios realizados Fran 05/11
 
 ¡¡¡¡¡¡IMPORTANTE!!!!!! -> guarda tus cambios en otros archivos y haz git pull, después introduce tus cambios, sino habrá conflictos git
