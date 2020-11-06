@@ -20,13 +20,32 @@ code {
 
 .imagesCardDescription {
   font-size: medium;
-  color: white;
+  color: black;
   padding: 10px;
 }
 
 .imagesCardCode {
-  color: white;
-  border: 5px solid white;
-  text-align: center;
-  padding: 10px;
+  margin: 0 auto;
+  width: 400px;
+  height: 55px;
+  border-radius: 30px;
+  border: 3px solid #85bb65;
+  outline: none;
+  padding-left: 97px;
+  padding-right: 40px;
+  padding-top: 5px;
+  background-color: #85bb65;
+  color: #fff;
+}
+
+.gridContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  border-collapse: separate;
+  scroll-snap-align: start;
+}
+
+.bid-floor-col {
+  scroll-snap-type: y mandatory;
 }

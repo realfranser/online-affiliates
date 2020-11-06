@@ -9,23 +9,31 @@ import { Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 750,//645
-        background: 'rgba(0,0,0,0.5)',
-        margin: '20px',
+        width: 600,
+        height:780,
+        background: 'rgba(0,0,0,0)',
+        marginRight: '90px',
+        marginLeft: '90px',
+        'box-shadow': 'none',
+        
     },
     media: {
-        height: 440,
+        marginTop: '100px',
+        height: '350px',
+        width: '600px',
+        'background-size': 'cover',
+        'background-position': '50% 50%',
     },
     title: {
-        fontFamily: 'Nunito',
+        fontFamily: '"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
         fontWeight: 'bold',
         fontSize: '2rem',
-        color: '#fff',
+        color: '#000000',
     },
     desc: {
-        fontFamily: 'Nunito',
+        fontFamily: '"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
         fontSize: '1.1rem',
-        color: '#ddd',
+        color: '#000000',
     },
 });
 
@@ -33,7 +41,7 @@ export default function ImageCard({ place, checked }) {
     const classes = useStyles();
 
     return (
-        <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})}>
+        /*<Collapse in={checked} {...(checked ? { timeout: 1000 } : {})}>*/
             <Card className={classes.root}>
                 <CardMedia
                     className={classes.media}
@@ -68,6 +76,6 @@ export default function ImageCard({ place, checked }) {
                     </Typography>
                 </CardContent>
             </Card>
-        </Collapse>
+        /*</Collapse>*/
     );
 }

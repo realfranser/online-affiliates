@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        fontFamily: 'Nunito',
+        width: 'fill',
+        fontFamily: '"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
     },
     appbar: {
         background: 'white',
@@ -30,12 +31,14 @@ const useStyles = makeStyles((theme) => ({
     },
     colorTextGreen: {
         color: '#85bb65',
-        fontSize: '4.5rem',
+        'font-size': '74px',
+        'font-weight': '600',
         'line-height': 1.3,
     },
     colorTextBlack: {
         color: '#000000',
-        fontSize: '4.5rem',
+        'font-size': '74px',
+        'font-weight': '600',
         //'line-height': 1.3,
     },
     colorTextWhite: {
@@ -46,8 +49,11 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         color: '#000000',
-        fontSize: '3.5rem',
+        'font-size': '55px',
+        'font-weight': '600',
         'line-height': 1.0,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     goDown: {
         color: '#85bb65',
