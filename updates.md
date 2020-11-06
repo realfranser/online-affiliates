@@ -4,7 +4,9 @@
 
 - He encontrado un "problema" con la idea de hacer un boton que copie los códigos, necesitaríamos codificar a mano los X botones y asignar diferentes IDs a cada código que queramos copiar. Mando captura del código por WhatsApp.
 
-- Al pulsar en el logo de la parte superior izquierda volvemos a la parte superior de la página (falta investigar como hacer que la subida sea gradual y no de golpe)
+- Al pulsar en el logo de la parte superior izquierda volvemos a la página principal (si estamos en alguna subpagina) o recargamos la misma (si estamos en la página principal)
+
+- Para mañana 07/11 hacer el footer
 
 ## Cambios realizados Fran 05/11
 
