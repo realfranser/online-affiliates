@@ -4,6 +4,8 @@
 
 - He encontrado un "problema" con la idea de hacer un boton que copie los códigos, necesitaríamos codificar a mano los X botones y asignar diferentes IDs a cada código que queramos copiar. Mando captura del código por WhatsApp.
 
+- Al pulsar en el logo de la parte superior izquierda volvemos a la parte superior de la página (falta investigar como hacer que la subida sea gradual y no de golpe)
+
 ## Cambios realizados Fran 05/11
 
 ¡¡¡¡¡¡IMPORTANTE!!!!!! -> guarda tus cambios en otros archivos y haz git pull, después introduce tus cambios, sino habrá conflictos git
