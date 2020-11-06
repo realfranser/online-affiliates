@@ -1,3 +1,14 @@
+## Cambios realizados Fran 06/11
+
+- Mejorada la fuente del texo de inicio y distancias
+
+- Mejorado el botón de acceder al link de afiliados
+
+- Puestos los brokers otra vez de dos en dos (ver como poner de uno en uno para móvil), posible solución, cambiar:
+  grid-template-columns: 1fr 1fr; por grid-template-rows: 1fr 1fr;
+
+- Mejorada la estética en general (revisar cambio de imágenes completas por imágenes sin fondo)
+
 ## Cambios realizados Pablo 06/11
 
 - Al hacer el merge dejamos subido a github la última versión con los cambios aplicados en ambas versiones.
