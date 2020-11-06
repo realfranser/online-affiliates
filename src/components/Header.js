@@ -92,7 +92,7 @@ export default function Header() {
                     <h1 className={classes.appbarTitle}>
                       {/*<span className={classes.colorTextBlack}>Online</span>
                       <span className={classes.colorTextGreen}>Affiliate</span>*/}
-                      <img src={process.env.PUBLIC_URL + "oalogo.ico"} style={{height: 50}} />
+                      <a href=""><img src={process.env.PUBLIC_URL + "oalogo.ico"} style={{height: 50}}/></a>
                     </h1>
                     <IconButton>
                         <SortIcon className={classes.icon} />
