@@ -9,7 +9,7 @@ import { Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-        width: 600,
+        width: 577,
         height:780,
         background: 'rgba(0,0,0,0)',
         marginRight: '90px',
@@ -66,6 +66,9 @@ export default function ImageCard({ place, checked }) {
                     >
                         {place.description}
                     </Typography>
+                    <Typography
+                        component="br"
+                    ></Typography>
                     <Typography
                         variant="h2"
                         component="h1"

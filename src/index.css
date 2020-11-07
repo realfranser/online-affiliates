@@ -40,7 +40,6 @@ code {
 
 .gridContainer {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr 1fr;
   border-collapse: separate;
   scroll-snap-align: start;
@@ -48,4 +47,17 @@ code {
 
 .bid-floor-col {
   scroll-snap-type: y mandatory;
+}
+
+/*Footer.js*/
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
