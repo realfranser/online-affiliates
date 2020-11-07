@@ -1,7 +1,7 @@
 ## Cambios realizados Pablo 07/11
 - Introduccion de un BR entre descripcion y codigo para que haya algo de separacion (se veia todo muy junto)
 
-- Repaso general de la página, comentario sobre el uso de los px en archivo Media.doc (problemas de visualizacion en diferentes dispositivos)
+- Repaso general de la página, comentario sobre el uso de los px en archivo Media.docx (problemas de visualizacion en diferentes dispositivos, y explicacion con capturas). SE PUEDE BORRAR CUANDO SE LEA
 
 - Añadimos footer, falta hacer algun cambio para que el footer se mantenga abajo siempre, y también falta añadir los enlaces, esta todo comentado en el codigo del footer (imagenes de las RRSS a la izq y a la derecha el "acerca de", "contacto"... o viceversa, eso da un poco igual, como prefieras tu
 
