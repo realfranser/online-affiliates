@@ -4,11 +4,11 @@ import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-        width: 600,
-        height:780,
-        background: 'rgba(0,0,0,0)',
-        marginRight: '90px',
-        marginLeft: '90px',
+        width: '100%',
+        height: 380,
+        background: ' #c3c3c3',
+        marginRight: '0px',
+        marginLeft: '0px',
         'box-shadow': 'none',
     }
 });

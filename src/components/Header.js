@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
+import { AppBar, IconButton, Toolbar, Collapse, Table } from '@material-ui/core';
 import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll';
+import { Block, GpsFixed } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: '"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
     },
     appbar: {
-        background: 'white',
+        background: 'black',
     },
     appbarWrapper: {
         width: '80%',
@@ -26,8 +27,39 @@ const useStyles = makeStyles((theme) => ({
         color: '#000000',
     },
     icon: {
-        color: '#000000',
+        color: '#c3c3c3',
         fontSize: '2rem',
+        '&:hover': {
+            cursor: 'pointer',
+            color: 'white',
+         }
+    },
+    barraBotones: {
+        width: '100%',
+        display: Table,
+        alignItems: 'center'
+    },
+    botonesArriba: {
+        color: '#c3c3c3',
+        '-webkit-box-sizing': 'border-box',
+        'box-sizing': 'border-box',
+        'display': 'inline-block',
+        'position': 'relative',
+        'height': '18px',
+        'z-index': '1',
+        'margin-right': '94px',
+        'margin-left': '94px',
+        'vertical-align': 'center',
+        '&:hover': {cursor: 'pointer',
+            color: 'white',
+         }
+    },
+    accionesBotones:{
+        'background-position': 'center center',
+        'background-origin': 'content-box',
+        'background-size': 'cover',
+        height: 40,
+        width: 40,
     },
     colorTextGreen: {
         color: '#85bb65',
@@ -98,8 +130,41 @@ export default function Header() {
                     <h1 className={classes.appbarTitle}>
                       {/*<span className={classes.colorTextBlack}>Online</span>
                       <span className={classes.colorTextGreen}>Affiliate</span>*/}
-                      <a href=""><img src={process.env.PUBLIC_URL + "oalogo.ico"} style={{height: 50}}/></a>
+                      <a href=""><img src={process.env.PUBLIC_URL + "oalogoGris.png"} 
+                       onMouseOver={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoFondoNegro.png")}
+                       onMouseOut={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoGris.png")}
+                      style={{height: 50}}/></a>
                     </h1>
+                    <ul className={classes.barraBotones}>
+                        <li className={classes.botonesArriba}>
+                            <a className={classes.accionesBotones}>
+                                <span className={classes.botonesTexto}>
+                                    Support
+                                </span>
+                            </a> 
+                        </li>
+                        <li className={classes.botonesArriba}> 
+                            <a className={classes.accionesBotones}>
+                                <span className={classes.botonesTexto}>
+                                    Contact us
+                                </span>
+                            </a>    
+                        </li>
+                        <li className={classes.botonesArriba}>
+                            <a className={classes.accionesBotones}>
+                                <span className={classes.botonesTexto}>
+                                    Become Affiliate
+                                </span>
+                            </a> 
+                        </li>
+                        <li className={classes.botonesArriba}>
+                            <a className={classes.accionesBotones}>
+                                <span className={classes.botonesTexto}>
+                                        FAQ
+                                </span>
+                            </a> 
+                        </li>
+                    </ul>
                     <IconButton>
                         <SortIcon className={classes.icon} />
                     </IconButton>
