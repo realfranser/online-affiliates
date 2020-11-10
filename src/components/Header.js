@@ -35,9 +35,14 @@ const useStyles = makeStyles((theme) => ({
          }
     },
     barraBotones: {
-        width: '100%',
-        display: Table,
-        alignItems: 'center'
+        cursor: 'default',
+        width: 'auto',
+        display: 'flex',
+        'margin-block-start': '1em',
+        'margin-block-end': '1em',
+        'margin-inline-start': '0px',
+        'margin-inline-end': '0px',
+        'padding-inline-start': '40px',
     },
     botonesArriba: {
         color: '#c3c3c3',
@@ -45,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
         'box-sizing': 'border-box',
         'display': 'inline-block',
         'position': 'relative',
-        'height': '18px',
+        top: '50%',
         'z-index': '1',
         'margin-right': '94px',
         'margin-left': '94px',
@@ -55,11 +60,12 @@ const useStyles = makeStyles((theme) => ({
          }
     },
     accionesBotones:{
+        'background-repeat': 'no-repeat',
         'background-position': 'center center',
         'background-origin': 'content-box',
         'background-size': 'cover',
-        height: 40,
-        width: 40,
+        'width': '1.85714em',
+        'max-width': '44.2px',
     },
     colorTextGreen: {
         color: '#85bb65',
