@@ -12,7 +12,7 @@ import {
     Route,
     Switch,
     Link,
-    Redirect
+    Redirect,
 } from "react-router-dom";
 
 //Pages
