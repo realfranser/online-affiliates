@@ -6,6 +6,21 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll';
 import { Block, GpsFixed } from '@material-ui/icons';
 
+//React-Router
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch,
+    Link,
+    Redirect
+} from "react-router-dom";
+
+//Pages
+import Support from "../pages/Support"
+import Contact from "../pages/Contact"
+import BecomeAffiliate from "../pages/BecomeAffiliate"
+import FAQ from "../pages/FAQ"
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
@@ -32,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             cursor: 'pointer',
             color: 'white',
-         }
+        }
     },
     barraBotones: {
         cursor: 'default',
@@ -55,11 +70,12 @@ const useStyles = makeStyles((theme) => ({
         'margin-right': '94px',
         'margin-left': '94px',
         'vertical-align': 'center',
-        '&:hover': {cursor: 'pointer',
+        '&:hover': {
+            cursor: 'pointer',
             color: 'white',
-         }
+        }
     },
-    accionesBotones:{
+    accionesBotones: {
         'background-repeat': 'no-repeat',
         'background-position': 'center center',
         'background-origin': 'content-box',
@@ -99,29 +115,29 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const SearchBar = ({keyword,setKeyword}) => {
+const SearchBar = ({ keyword, setKeyword }) => {
     const BarStyling = {
-    margin:'0 auto',
-    width:'375px',
-    height: '45px',
-    'border-radius':'30px',
-    border:'1px solid #dcdcdc',
-    outline: 'none'
+        margin: '0 auto',
+        width: '375px',
+        height: '45px',
+        'border-radius': '30px',
+        border: '1px solid #dcdcdc',
+        outline: 'none'
     };
     return (
-      <input 
-       style={BarStyling}
-       key="random1"
-       value={keyword}
-       //no tocar ni formatear placeholder, está puesto así para centrarlo
-       placeholder="                                  
+        <input
+            style={BarStyling}
+            key="random1"
+            value={keyword}
+            //no tocar ni formatear placeholder, está puesto así para centrarlo
+            placeholder="                                  
        
         enter creator code"
-       onChange={(e) => setKeyword(e.target.value)}
+            onChange={(e) => setKeyword(e.target.value)}
 
-      />
+        />
     );
-  }
+}
 
 export default function Header() {
     const classes = useStyles();
@@ -134,43 +150,59 @@ export default function Header() {
             <AppBar className={classes.appbar} elevation={0}>
                 <Toolbar className={classes.appbarWrapper}>
                     <h1 className={classes.appbarTitle}>
-                      {/*<span className={classes.colorTextBlack}>Online</span>
+                        {/*<span className={classes.colorTextBlack}>Online</span>
                       <span className={classes.colorTextGreen}>Affiliate</span>*/}
-                      <a href=""><img src={process.env.PUBLIC_URL + "oalogoGris.png"} 
-                       onMouseOver={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoFondoNegro.png")}
-                       onMouseOut={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoGris.png")}
-                      style={{height: 50}}/></a>
+                        <a href=""><img src={process.env.PUBLIC_URL + "oalogoGris.png"}
+                            onMouseOver={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoFondoNegro.png")}
+                            onMouseOut={e => (e.currentTarget.src = process.env.PUBLIC_URL + "oalogoGris.png")}
+                            style={{ height: 50 }} /></a>
                     </h1>
-                    <ul className={classes.barraBotones}>
-                        <li className={classes.botonesArriba}>
-                            <a className={classes.accionesBotones}>
-                                <span className={classes.botonesTexto}>
-                                    Support
-                                </span>
-                            </a> 
-                        </li>
-                        <li className={classes.botonesArriba}> 
-                            <a className={classes.accionesBotones}>
-                                <span className={classes.botonesTexto}>
-                                    Contact us
-                                </span>
-                            </a>    
-                        </li>
-                        <li className={classes.botonesArriba}>
-                            <a className={classes.accionesBotones}>
-                                <span className={classes.botonesTexto}>
-                                    Become Affiliate
-                                </span>
-                            </a> 
-                        </li>
-                        <li className={classes.botonesArriba}>
-                            <a className={classes.accionesBotones}>
-                                <span className={classes.botonesTexto}>
+                    <Router>
+                        <ul className={classes.barraBotones}>
+                            <li className={classes.botonesArriba}>
+                                <a className={classes.accionesBotones}>
+                                    <Link to="/support">
+                                        Support
+                                    </Link>
+                                </a>
+                            </li>
+                            <li className={classes.botonesArriba}>
+                                <a className={classes.accionesBotones}>
+                                    <Link to="/contact">
+                                        Contact us
+                                    </Link>
+                                </a>
+                            </li>
+                            <li className={classes.botonesArriba}>
+                                <a className={classes.accionesBotones}>
+                                    <Link to="/affiliates">
+                                        Become Affiliate
+                                    </Link>
+                                </a>
+                            </li>
+                            <li className={classes.botonesArriba}>
+                                <a className={classes.accionesBotones}>
+                                    <Link to="/faq">
                                         FAQ
-                                </span>
-                            </a> 
-                        </li>
-                    </ul>
+                                    </Link>
+                                </a>
+                            </li>
+                        </ul>
+                        <Switch>
+                            <Route path="/support" exact>
+                                <Support/>
+                            </Route>
+                            <Route path="/contact" exact>
+                                <Contact/>
+                            </Route>
+                            <Route path="/affiliates" exact>
+                                <BecomeAffiliate/>
+                            </Route>
+                            <Route path="/faq" exact>
+                                <FAQ/>
+                            </Route>
+                        </Switch>
+                    </Router>
                     <IconButton>
                         <SortIcon className={classes.icon} />
                     </IconButton>
@@ -187,8 +219,8 @@ export default function Header() {
                         Welcome to <br />
                         <span className={classes.colorTextBlack}>Online</span>
                         <span className={classes.colorTextGreen}>Affiliate</span>
-                    <h1/>
-                    <SearchBar />
+                        <h1 />
+                        <SearchBar />
                     </h1>
                     <br />
                     <Scroll to="place-to-visit" smooth={true}>

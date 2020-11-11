@@ -16,6 +16,12 @@ code {
     monospace;
 }
 
+/*Links sin estilos*/ 
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: lightgrey;
+}
+
 /*ImageCard.js*/
 
 .imagesCardDescription {

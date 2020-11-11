@@ -1,3 +1,12 @@
+## Cambios realizados Pablo 11/11 ¡MIRAR README para importar RRD!
+- Investigación React Router DOM para el redireccionamiento de las MPA (Multi Pages Application), para los links de acerca de, contacto...
+
+- Creacion de páginas temporales de contacto...
+
+- Redireccionamientos creados (integrar el React Router DOM ha sido un poco movida en el proyecto pero ha salido bien)
+
+- Estilo de los <a> cambiado en index.css (se elimina el subrayado y el color azul de los típicos links para que quede acorde con el estilo de la página)
+
 ## Cambios realizados Pablo 07/11
 - Introduccion de un BR entre descripcion y codigo para que haya algo de separacion (se veia todo muy junto)
 

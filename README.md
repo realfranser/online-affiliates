@@ -16,6 +16,10 @@ bootstrap@4.5.3
 
     >npm install jquery popper.js bootstrap
 
+- React Router DOM (Redireccionamiento para Multi-Pages Application)
+
+    >npm install react-router-dom
+
 -Posibles nombres web: www.onlineaffiliate.com
 
 ## Ideas
