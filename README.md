@@ -1,5 +1,14 @@
 ## Docu and tools
 
+- Instalar librerías:
+
+  > npm install styled-components
+  > npm install react-icons --save
+
+- Ver vídeo:
+  Voy por el minuto 1:13:20
+  Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+
 -Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
 
 -Iconos para react: https://material-ui.com/
@@ -16,7 +25,7 @@ bootstrap@4.5.3
 
     >npm install jquery popper.js bootstrap
 
-- React Router DOM (Redireccionamiento para Multi-Pages Application)
+-React Router DOM (Redireccionamiento para Multi-Pages Application)
 
     >npm install react-router-dom
 
