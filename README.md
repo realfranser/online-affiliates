@@ -3,6 +3,7 @@
 -Instalar librerías:
 
   >npm install styled-components
+  
   >npm install react-icons --save
 
 -Ver vídeo:
