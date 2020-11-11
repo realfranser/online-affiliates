@@ -1,11 +1,11 @@
 ## Docu and tools
 
-- Instalar librerías:
+-Instalar librerías:
 
   > npm install styled-components
   > npm install react-icons --save
 
-- Ver vídeo:
+-Ver vídeo:
   Voy por el minuto 1:13:20
   Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
 
