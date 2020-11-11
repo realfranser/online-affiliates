@@ -1,4 +1,16 @@
+## Fran 11/11
+
+- Instalar librerías:
+
+  > npm install styled-components
+  > npm install react-icons --save
+
+- Ver vídeo:
+  Voy por el minuto 1:13:20
+  Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+
 ## Cambios realizados Pablo 11/11 ¡MIRAR README para importar RRD!
+
 - Investigación React Router DOM para el redireccionamiento de las MPA (Multi Pages Application), para los links de acerca de, contacto...
 
 - Creacion de páginas temporales de contacto...
@@ -8,6 +20,7 @@
 - Estilo de los <a> cambiado en index.css (se elimina el subrayado y el color azul de los típicos links para que quede acorde con el estilo de la página)
 
 ## Cambios realizados Pablo 07/11
+
 - Introduccion de un BR entre descripcion y codigo para que haya algo de separacion (se veia todo muy junto)
 
 - Repaso general de la página, comentario sobre el uso de los px en archivo Media.docx (problemas de visualizacion en diferentes dispositivos, y explicacion con capturas). SE PUEDE BORRAR CUANDO SE LEA
