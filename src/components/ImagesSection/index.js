@@ -1,9 +1,14 @@
 import React from 'react';
 
+import { ImageContainer } from './ImagesElements';
+
 const ImagesElements = () => {
     return (
         <ImageContainer>
-            {/*Aqui es donde introduce el video de fondo, pero tengo entendido que nosotros no vamos a poner ningun video asi*/}
+            <ImageContent>
+                {/*Por ejemplo*/}
+                <ImageH1>Making easy online trading</ImageH1>
+            </ImageContent>
         </ImageContainer>
     )
 }
