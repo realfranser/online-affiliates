@@ -1,3 +1,7 @@
+## Fran 14/11
+
+- Solucionado problemas de merge ( había una rama 1.0 rara por ahí ).
+
 ## Fran 11/11
 
 - Instalar librerías:
