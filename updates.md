@@ -6,7 +6,7 @@
   > npm install react-icons --save
 
 - Ver vídeo:
-  Voy por el minuto 1:30:20
+  Minuto 02:06:00 -> Introducción de un video de background reproducido en bucle
   Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
 
 ## Cambios realizados Pablo 11/11 ¡MIRAR README para importar RRD!
