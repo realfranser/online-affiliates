@@ -7,6 +7,7 @@ const ImagesElements = () => {
         <ImageContainer>
             <ImageContent>
                 {/*Por ejemplo*/}
+                {/*PRUEBA*/}
                 <ImageH1>Making easy online trading</ImageH1>
             </ImageContent>
         </ImageContainer>
