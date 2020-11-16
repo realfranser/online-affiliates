@@ -1,3 +1,7 @@
+## Fran y Pablo 14/11
+
+- Avanzamos con el código de la página 
+
 ## Fran 14/11
 
 - Solucionado problemas de merge ( había una rama 1.0 rara por ahí ).
