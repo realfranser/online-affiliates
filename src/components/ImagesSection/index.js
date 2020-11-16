@@ -1,13 +1,14 @@
-import React, {useState} from 'react';
-import { Button } from '../ButtonElement';
-import { 
-    ArrowForward, 
+import React, { useState } from 'react';
+import { Button } from '../ButtonElements';
+import {
+    ArrowForward,
     ArrowRight,
-    ImageBtnWrapper, 
-    ImageContainer, 
-    ImageContent, 
-    ImageH1, 
-    ImageP } from './ImagesElements';
+    ImageBtnWrapper,
+    ImageContainer,
+    ImageContent,
+    ImageH1,
+    ImageP
+} from './ImagesElements';
 
 const ImagesElements = () => {
 
@@ -24,7 +25,7 @@ const ImagesElements = () => {
                 <ImageP>Texto de prueba</ImageP>
                 <ImageBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Get Started { hover ? <ArrowForward /> : <ArrowRight /> }
+                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </ImageBtnWrapper>
             </ImageContent>
