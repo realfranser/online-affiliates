@@ -1,14 +1,15 @@
 ## Docu and tools
 
+Página para imagenes SVG gratis y con colores propios: undraw.co (Se cuenta en el minuto 02:09:26)
+
+-Ver vídeo. Minuto 1:13:20
+  Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+
 -Instalar librerías:
 
   >npm install styled-components
   
   >npm install react-icons --save
-
--Ver vídeo:
-  Voy por el minuto 1:13:20
-  Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
 
 -Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
 
