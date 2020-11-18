@@ -1,6 +1,6 @@
 ## Fran y Pablo 14/11
 
-- Avanzamos con el código de la página 
+- Avanzamos con el código de la página
 
 ## Fran 14/11
 
