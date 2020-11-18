@@ -1,9 +1,8 @@
 ## Fran 18/11
 
-- He avanzado hasta el minuto que pone en el mensaje del commit (2:46)
-- Hay un error de compilacion (no se importa Services), es un error tonto pero
-  por ahora no lo encuentro
-- Son las 7 de la tarde vuelvo en un rato
+- Anyadidos issues a revisar, problemas de compilacion solucionados
+- He avanzado hasta el minuto que pone en el mensaje del commit (3:06)
+- Son las 10:30 de la tarde vuelvo en un rato
 
 ## Fran y Pablo 14/11
 
