@@ -1,3 +1,10 @@
+## Fran 18/11
+
+- He avanzado hasta el minuto que pone en el mensaje del commit
+- Hay un error de compilacion (no se importa Services), es un error tonto pero
+  por ahora no lo encuentro
+- Son las 7 de la tarde vuelvo en un rato	
+
 ## Fran y Pablo 14/11
 
 - Avanzamos con el código de la página
