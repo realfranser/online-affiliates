@@ -1,6 +1,11 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
+import { coloresOA } from "../../../package.json";
+
+var verdeDolar = coloresOA.verdeDolar;
+var verdeIluminado = coloresOA.verdeIluminado;
+var grisOA = coloresOA.grisOA;
 
 export const Nav = styled.nav`
     background #000;
@@ -73,7 +78,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: ${grisOA};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -81,8 +86,9 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #01bf71;
+  &:hover {
+    color: #fff;
+    border-bottom: 3px solid ${verdeDolar};
   }
 `;
 
@@ -97,10 +103,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: ${verdeDolar};
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #000;
   font-size: 16px;
   outline: none;
   border: none;
@@ -110,7 +116,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #010606;
-    background: #fff;
+    color: verdeDolar;
+    background: ${verdeIluminado};
   }
 `;

@@ -18,7 +18,23 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">dolla</NavLogo>
+          <NavLogo to="/">
+            {/*logo OA, implementarlo en clase navbar Elements
+               ,hacer que refresque la pagina
+               y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
+            <img
+              src={process.env.PUBLIC_URL + "oalogoGris.png"}
+              onMouseOver={(e) =>
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL + "oalogoFondoNegro.png")
+              }
+              onMouseOut={(e) =>
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL + "oalogoGris.png")
+              }
+              style={{ height: 50 }}
+            />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
