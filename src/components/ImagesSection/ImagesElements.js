@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { MdKeyboardArrowDown, MdArrowDownward } from "react-icons/md";
 import { coloresOA } from "../../../package.json";
 
 export const ImageContainer = styled.div`
@@ -58,18 +58,14 @@ export const ImageBtnWrapper = styled.div`
   flex-direction: column;
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowHovered = styled(MdArrowDownward)`
   margin-left: 8px;
-  font-size: 20px;
+  margin-top: 2px;
+  font-size: 24px;
 `;
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const ArrowUnhovered = styled(MdKeyboardArrowDown)`
   margin-left: 8px;
+  margin-top: 5px;
   font-size: 20px;
 `;
-
-/*Color dolar
-color: '#85bb65'*/
-
-/*Color gris
-color: '#c3c3c3'*/

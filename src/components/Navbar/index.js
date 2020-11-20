@@ -11,6 +11,8 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  NavBlank,
+  NavBlankLinks,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -23,14 +25,14 @@ const Navbar = ({ toggle }) => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
             <img
-              src={process.env.PUBLIC_URL + "oalogoGris.png"}
+              src={process.env.PUBLIC_URL + "oalogoGrisVerdeIluminado.png"}
               onMouseOver={(e) =>
                 (e.currentTarget.src =
                   process.env.PUBLIC_URL + "oalogoFondoNegro.png")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  process.env.PUBLIC_URL + "oalogoGris.png")
+                  process.env.PUBLIC_URL + "oalogoGrisVerdeIluminado.png")
               }
               style={{ height: 50 }}
             />
@@ -42,14 +44,23 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="support">Support</NavLinks>
             </NavItem>
+            <NavBlank>
+              <NavBlankLinks to="/"></NavBlankLinks>
+            </NavBlank>
             <NavItem>
               <NavLinks to="contact">Contact us</NavLinks>
             </NavItem>
+            <NavBlank>
+              <NavBlankLinks to="/"></NavBlankLinks>
+            </NavBlank>
             <NavItem>
-              <NavLinks to="affiliates">Become Affiliate</NavLinks>
+              <NavLinks to="affiliates">Get notified</NavLinks>
             </NavItem>
+            <NavBlank>
+              <NavBlankLinks to="/"></NavBlankLinks>
+            </NavBlank>
             <NavItem>
-              <NavLinks to="signup">Sign up</NavLinks>
+              <NavLinks to="signup">Sign in</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

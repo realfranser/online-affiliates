@@ -25,10 +25,10 @@ const Sidebar = ({ isOpen, toggle }) => {
             Contact us
           </SidebarLink>
           <SidebarLink to="affiliates" onClick={toggle}>
-            Become Affiliate
+            Get notified
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+            Sign in
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

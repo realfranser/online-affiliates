@@ -77,6 +77,20 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
+export const NavBlank = styled.li`
+  height: 80px;
+`;
+
+export const NavBlankLinks = styled(LinkS)`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+`;
+
 export const NavLinks = styled(LinkS)`
   color: ${grisOA};
   display: flex;
@@ -88,7 +102,7 @@ export const NavLinks = styled(LinkS)`
 
   &:hover {
     color: #fff;
-    border-bottom: 3px solid ${verdeDolar};
+    border-bottom: 3px solid ${verdeIluminado};
   }
 `;
 
@@ -103,7 +117,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: ${verdeDolar};
+  background: ${verdeIluminado};
   white-space: nowrap;
   padding: 10px 22px;
   color: #000;
@@ -113,10 +127,12 @@ export const NavBtnLink = styled(LinkR)`
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-weight: 500;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: verdeDolar;
+    color: #fff;
     background: ${verdeIluminado};
+    transform: scale(1.04);
   }
 `;
