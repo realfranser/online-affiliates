@@ -8,20 +8,20 @@ var verdeIluminado = coloresOA.verdeIluminado;
 var grisOA = coloresOA.grisOA;
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#000' : '#000')};
-    height: 80px;
-    /*margin-top: -80px;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "#000")};
+  height: 80px;
+  /*margin-top: -80px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
-    @media screen and (maz-width: 960px) {
-        transition: 0.8s all ease;
-    }
+  @media screen and (maz-width: 960px) {
+    transition: 0.8s all ease;
+  }
 `;
 
 export const NavbarContainer = styled.div`
@@ -99,6 +99,11 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
+  &.active {
+    color: #fff;
+    border-bottom: 3px solid ${verdeIluminado};
+  }
 
   &:hover {
     color: #fff;

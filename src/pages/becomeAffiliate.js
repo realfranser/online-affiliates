@@ -1,11 +1,13 @@
 import React from "react";
+import BecomeAffiliate from "../components/BecomeAffiliate";
+import ScrollToTop from "../components/ScrollToTop";
 
 const BecomeAffiliatePage = () => {
   return (
-    <div>
-      <h1>Become affiliate page</h1>
-      <h2>Hola</h2>
-    </div>
+    <>
+      <ScrollToTop />
+      <BecomeAffiliate />
+    </>
   );
 };
 
