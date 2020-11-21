@@ -1,3 +1,11 @@
+## Fran 21/11
+
+- Modificado footer
+- Modificada cabecera
+- Son las 9 de la noche, por ahora no he avanzado a penas en el video, sigo despues
+- Hay que hacer funcional la barra de busqueda de codigo y decorarla
+- Arreglado problema de los links que no funcionaban
+
 ## Fran 18/11
 
 - Anyadidos issues a revisar, problemas de compilacion solucionados

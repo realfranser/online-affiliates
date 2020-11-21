@@ -1,4 +1,4 @@
-import { Twitter } from "@material-ui/icons";
+import { BorderColor, Twitter } from "@material-ui/icons";
 import React from "react";
 import {
   FooterContainer,
@@ -13,16 +13,17 @@ import {
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
+  YoutubeIcon,
 } from "./FooterElements";
+import { animateScroll as scroll } from "react-scroll";
 
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
+const toggleHome = () => {
+  scroll.scrollToTop();
+};
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>About us </FooterLinkTitle>
               {/*hacer estas secciones tipo a para poder meter links if necessary*/}
-              <FooterLink to="/becomeAffiliate">How ir works</FooterLink>
+              <FooterLink to="/becomeAffiliate">How it works</FooterLink>
               <FooterLink to="/becomeAffiliate">Testimonials</FooterLink>
               <FooterLink to="/becomeAffiliate">Careers</FooterLink>
               <FooterLink to="/becomeAffiliate">Investors</FooterLink>
@@ -51,7 +52,7 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About us </FooterLinkTitle>
-              <FooterLink to="/becomeAffiliate">How ir works</FooterLink>
+              <FooterLink to="/becomeAffiliate">How it works</FooterLink>
               <FooterLink to="/becomeAffiliate">Testimonials</FooterLink>
               <FooterLink to="/becomeAffiliate">Careers</FooterLink>
               <FooterLink to="/becomeAffiliate">Investors</FooterLink>
@@ -59,7 +60,7 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Business</FooterLinkTitle>
-              <FooterLink to="/becomeAffiliate">How ir works</FooterLink>
+              <FooterLink to="/becomeAffiliate">How it works</FooterLink>
               <FooterLink to="/becomeAffiliate">Testimonials</FooterLink>
               <FooterLink to="/becomeAffiliate">Careers</FooterLink>
               <FooterLink to="/becomeAffiliate">Investors</FooterLink>
@@ -69,26 +70,42 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">dolla</SocialLogo>
+            <SocialLogo onClick={toggleHome} to="/">
+              {/*logo OA, implementarlo en clase navbar Elements
+               ,hacer que refresque la pagina
+               y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
+              <img
+                src={process.env.PUBLIC_URL + "logoFooter.png"}
+                onMouseOver={(e) =>
+                  (e.currentTarget.src =
+                    process.env.PUBLIC_URL + "logoHoverFooter.png")
+                }
+                onMouseOut={(e) =>
+                  (e.currentTarget.src =
+                    process.env.PUBLIC_URL + "logoFooter.png")
+                }
+                style={{ height: 50 }}
+              />
+            </SocialLogo>
             <WebsiteRights>
-              dolla Ⓒ {new Date().getFullYear()} All rights reserved
+              OnlineAffiliates Ⓒ {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
+                <FacebookIcon />
               </SocialIconLink>
               <SocialIconLink
                 href="//www.twitter.com/realfranser"
                 target="_blank"
                 aria-label="Instagram"
               >
-                <FaInstagram />
+                <InstagramIcon />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="YouTube">
-                <FaYoutube />
+                <YoutubeIcon />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
+                <TwitterIcon />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

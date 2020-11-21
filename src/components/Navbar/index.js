@@ -1,8 +1,8 @@
 import { ToggleOff } from "@material-ui/icons";
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll } from 'react-scroll';
+import { IconContext } from "react-icons/lib";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -18,27 +18,27 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false)
+  const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
-      setScrollNav(true)
+      setScrollNav(true);
     } else {
-      setScrollNav(false)
+      setScrollNav(false);
     }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', changeNav);
+    window.addEventListener("scroll", changeNav);
   }, []);
 
   const toggleHome = () => {
-    scroll.scrollToTop()
-  }
+    scroll.scrollToTop();
+  };
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to="/">
@@ -68,44 +68,56 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
-                  offset={-80}>Support</NavLinks>
+                  exact="true"
+                  offset={-80}
+                >
+                  Support
+                </NavLinks>
               </NavItem>
               <NavBlank>
                 <NavBlankLinks to="/"></NavBlankLinks>
               </NavBlank>
               <NavItem>
                 <NavLinks
-                  to="contact"
+                  to="contactus"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
-                  offset={-80}>Contact us</NavLinks>
+                  exact="true"
+                  offset={-80}
+                >
+                  Contact us
+                </NavLinks>
               </NavItem>
               <NavBlank>
                 <NavBlankLinks to="/"></NavBlankLinks>
               </NavBlank>
               <NavItem>
                 <NavLinks
-                  to="affiliates"
+                  to="getnotified"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
-                  offset={-80}>Get notified</NavLinks>
+                  exact="true"
+                  offset={-80}
+                >
+                  Get notified
+                </NavLinks>
               </NavItem>
               <NavBlank>
                 <NavBlankLinks to="/"></NavBlankLinks>
               </NavBlank>
               <NavItem>
                 <NavLinks
-                  to="signup"
+                  to="signin"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
-                  offset={-80}>Sign in</NavLinks>
+                  exact="true"
+                  offset={-80}
+                >
+                  Sign in
+                </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>

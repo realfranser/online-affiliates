@@ -1,8 +1,18 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { coloresOA } from "../../../package.json";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
+
+const grisOA = coloresOA.grisOA;
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  background-color: rgba(0, 0, 0, 0.92);
 `;
 
 export const FooterWrap = styled.div`
@@ -56,14 +66,15 @@ export const FooterLinkTitle = styled.h1`
 
 //linea 66, no seria ease-in-out??
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: ${grisOA};
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: #fff;
     transition: 0.3s ease-out;
+    text-decoration: underline;
   }
 `;
 
@@ -94,21 +105,53 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
-`
+`;
 
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
-`
+`;
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 240px;
-`
+`;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-`
+`;
+
+export const FacebookIcon = styled(FaFacebook)`
+  color: ${grisOA};
+
+  &:hover {
+    color: #fff;
+  }
+`;
+
+export const TwitterIcon = styled(FaTwitter)`
+  color: ${grisOA};
+
+  &:hover {
+    color: #fff;
+  }
+`;
+
+export const InstagramIcon = styled(FaInstagram)`
+  color: ${grisOA};
+
+  &:hover {
+    color: #fff;
+  }
+`;
+
+export const YoutubeIcon = styled(FaYoutube)`
+  color: ${grisOA};
+
+  &:hover {
+    color: #fff;
+  }
+`;

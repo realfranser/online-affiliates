@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { MdKeyboardArrowDown, MdArrowDownward } from "react-icons/md";
 import { coloresOA } from "../../../package.json";
+import { Button } from "../ButtonElements";
+import { SearchBar } from "../SearchBar";
 
 export const ImageContainer = styled.div`
   background: white;
@@ -8,9 +10,10 @@ export const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 1000px;
   position: relative;
   z-index: 1;
+  margin-top: -175px;
 `;
 
 export const ImageContent = styled.div`
@@ -33,6 +36,19 @@ export const ImageH1 = styled.h1`
   }
   @media screen and (max-width: 480) {
     font-size: 32px;
+  }
+`;
+
+export const ImageH2 = styled.h2`
+  color: black;
+  font-size: 55px;
+  text-align: center;
+
+  @media screen and (max-width: 760px) {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 480) {
+    font-size: 40px;
   }
 `;
 
@@ -69,3 +85,17 @@ export const ArrowUnhovered = styled(MdKeyboardArrowDown)`
   margin-top: 5px;
   font-size: 20px;
 `;
+
+export const WithoutCodeButton = styled(Button)`
+  background-color: #01bf71;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    transform: scale(1.04);
+  }
+`;
+
+export const MeterCodigo = styled(SearchBar)``;
