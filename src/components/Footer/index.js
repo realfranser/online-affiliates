@@ -1,3 +1,4 @@
+import { Twitter } from "@material-ui/icons";
 import React from "react";
 import {
   FooterContainer,
@@ -43,7 +44,7 @@ const Footer = () => {
               <FooterLink to="/becomeAffiliate">Terms of service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About us </FooterLinkTitle>
+              <FooterLinkTitle>Business</FooterLinkTitle>
               <FooterLink to="/becomeAffiliate">How ir works</FooterLink>
               <FooterLink to="/becomeAffiliate">Testimonials</FooterLink>
               <FooterLink to="/becomeAffiliate">Careers</FooterLink>
@@ -52,6 +53,32 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/">dolla</SocialLogo>
+            <WebsiteRights>
+              dolla Ⓒ {new Date().getFullYear()} All rights reserved
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.twitter.com/realfranser"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="YouTube">
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                <FaTwitter />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );
