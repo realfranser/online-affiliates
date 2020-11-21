@@ -8,7 +8,7 @@ var verdeIluminado = coloresOA.verdeIluminado;
 var grisOA = coloresOA.grisOA;
 
 export const Nav = styled.nav`
-    background #000;
+    background: ${({ scrollNav }) => (scrollNav ? '#000' : '#000')};
     height: 80px;
     /*margin-top: -80px;*/
     display: flex;

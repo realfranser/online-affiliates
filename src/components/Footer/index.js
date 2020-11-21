@@ -8,7 +8,21 @@ import {
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink
 } from "./FooterElements";
+
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
