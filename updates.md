@@ -1,3 +1,9 @@
+## Fran 22/11
+
+- Creadas 3 tarjetas de 3 brokers
+- Intenta meter los brokers que falten y haz que cuadren los tamanyos y todo eso
+- Me voy al tenis, volvere por la tarde
+
 ## Fran 21/11
 
 - Modificado footer
