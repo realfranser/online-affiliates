@@ -51,6 +51,8 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+ 
+  user-select: none; 
 `;
 
 export const ServicesIcon = styled.img`
