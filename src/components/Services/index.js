@@ -1,9 +1,4 @@
 import React from "react";
-
-//import Icon1 from "../../../public/assets/trading212dos.png";
-//import Icon2 from "../../../public/assets/trading212dos.png";
-//import Icon3 from "../../../public/assets/trading212dos.png";
-
 import {
   ServicesContainer,
   ServicesH1,
@@ -20,19 +15,25 @@ const Services = () => {
       <ServicesH1>Our services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon /*src={Icon1}*/ />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help reduce our expences</ServicesP>
+          <ServicesIcon
+            src={process.env.PUBLIC_URL + "/assets/trading212dos.png"}
+          />
+          <ServicesH2>Trading 212</ServicesH2>
+          <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /*src={Icon2}*/ />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help reduce our expences</ServicesP>
+          <ServicesIcon
+            src={process.env.PUBLIC_URL + "/assets/robinhood.png"}
+          />
+          <ServicesH2>Robin Hood</ServicesH2>
+          <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /*src={Icon3}*/ />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help reduce our expences</ServicesP>
+          <ServicesIcon
+            src={process.env.PUBLIC_URL + "/assets/plus500dos.png"}
+          />
+          <ServicesH2>Plus 500</ServicesH2>
+          <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
