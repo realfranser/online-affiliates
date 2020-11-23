@@ -15,7 +15,7 @@ export const homeObjOne = {
   img: require("../../images/svg-1.svg"),
 };
 
-/*export const homeObjTwo = {
+export const homeObjTwo = {
   id: "getnotified",
   lightBg: true,
   lightText: false,
@@ -28,23 +28,6 @@ export const homeObjOne = {
   alt: "Savings",
   dark: false,
   primary: true,
-  darkText: true,
-  img: require("../../images/svg-1.svg"),
-};*/
-
-export const homeObjTwo = {
-  id: "getnotified",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: true,
-  topLine: "Online Affiliates",
-  headLine: "Get paid only by introducing the following codes",
-  description: "Descripción en texto pequeño para añadir",
-  buttonLabel: "Get Started",
-  imgStart: false, //false=imagen a la izquierda
-  alt: "Savings",
-  dark: false,
-  primary: false,
   darkText: true,
   img: require("../../images/svg-1.svg"),
 };
