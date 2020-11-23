@@ -23,9 +23,9 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <ImagesElements />
+      <Services />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <Services />
       <InfoSection {...homeObjThree} />
       <Footer />
     </>

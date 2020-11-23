@@ -46,14 +46,18 @@ const Navbar = ({ toggle }) => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
               <img
-                src={process.env.PUBLIC_URL + "oalogoGrisVerdeIluminado.png"}
+                src={
+                  process.env.PUBLIC_URL +
+                  "logosOA/oalogoGrisVerdeIluminado.png"
+                }
                 onMouseOver={(e) =>
                   (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "oalogoFondoNegro.png")
+                    process.env.PUBLIC_URL + "logosOA/oalogoFondoNegro.png")
                 }
                 onMouseOut={(e) =>
                   (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "oalogoGrisVerdeIluminado.png")
+                    process.env.PUBLIC_URL +
+                    "logosOA/oalogoGrisVerdeIluminado.png")
                 }
                 style={{ height: 50 }}
               />

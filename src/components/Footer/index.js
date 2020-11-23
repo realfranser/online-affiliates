@@ -75,14 +75,14 @@ const Footer = () => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
               <img
-                src={process.env.PUBLIC_URL + "logoFooter.png"}
+                src={process.env.PUBLIC_URL + "logosOA/logoFooter.png"}
                 onMouseOver={(e) =>
                   (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logoHoverFooter.png")
+                    process.env.PUBLIC_URL + "logosOA/logoHoverFooter.png")
                 }
                 onMouseOut={(e) =>
                   (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logoFooter.png")
+                    process.env.PUBLIC_URL + "logosOA/logoFooter.png")
                 }
                 style={{ height: 50 }}
               />

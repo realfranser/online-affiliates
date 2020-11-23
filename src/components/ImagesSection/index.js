@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "../ButtonElements";
 import {
-  ArrowHovered,
-  ArrowUnhovered,
   ImageBtnWrapper,
   ImageContainer,
   ImageContent,
@@ -14,6 +11,8 @@ import {
   MeterCodigo,
 } from "./ImagesElements";
 import { animateScroll as scroll } from "react-scroll";
+import Services from "../Services";
+import { FaSignInAlt } from "react-icons/fa";
 
 const ImagesElements = () => {
   const [hover, setHover] = useState(false);
@@ -49,13 +48,12 @@ const ImagesElements = () => {
         <MeterCodigo />
         <ImageBtnWrapper>
           <WithoutCodeButton
-            to="signin"
+            to="services"
             smooth={true}
             duration={500}
             spy={true}
             exact="true"
             offset={-80}
-            to="signin"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
