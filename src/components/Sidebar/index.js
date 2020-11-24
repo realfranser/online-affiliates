@@ -18,8 +18,8 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="support" onClick={toggle}>
-            Support
+          <SidebarLink to="services" onClick={toggle}>
+            Services
           </SidebarLink>
           <SidebarLink to="contactus" onClick={toggle}>
             Contact us

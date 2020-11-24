@@ -53,7 +53,7 @@ const ImagesElements = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={10}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
