@@ -1,3 +1,12 @@
+## Pablo 24/11
+
+- Añadido navbar provisional al signup (idea de crear un navbar diferente que solo tenga el logo OA centrado que redirija a la pagina principal)
+- Cambio en el navbar se quita support (ira en footer) metemos services que redirige a los servicios (brokers)
+- Se añade la propiedad que impide que los textos e imagenes de los brokers se puedan seleccionar (queda bastante feo por estetica)
+- Solucionado el problema de que cuando pulsabas en un link del navbar la linea horizontal inferior se situaba en la categoria anterior
+- Arreglado el desplazamiento desde el boton de "Start without code" (antes no se desplazaba lo suficiente y no se marcaba la barra horizontal inferior de Services)
+- Modificado tambien el SideBar para que se quede igual de actualizado que el NavBar
+
 ## Fran 22/11
 
 - Creadas 3 tarjetas de 3 brokers
