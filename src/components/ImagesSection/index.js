@@ -44,8 +44,9 @@ const ImagesElements = () => {
         <ImageH1>Welcome to</ImageH1>
         <ImageH2>Online Affiliates</ImageH2>
         &nbsp;
-        {/*<ImageP>Texto de prueba</ImageP>*/}
-        <MeterCodigo />
+        {/*<ImageP>Texto de prueba</ImageP>
+        The search bar will become useful in the 2.x
+        <MeterCodigo />*/}
         <ImageBtnWrapper>
           <WithoutCodeButton
             to="services"
@@ -57,7 +58,7 @@ const ImagesElements = () => {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Start without code{" "}
+            Check available bonus{" "}
             {/*{hover ? <ArrowHovered /> : <ArrowUnhovered />}*/}
           </WithoutCodeButton>
         </ImageBtnWrapper>

@@ -90,7 +90,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={10}
                 >
-                  Contact us
+                  How it works
                 </NavLinks>
               </NavItem>
               <NavBlank>
@@ -105,7 +105,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={10}
                 >
-                  Get notified
+                  Contact us
                 </NavLinks>
               </NavItem>
               <NavBlank>
@@ -120,12 +120,12 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={10}
                 >
-                  Sign in
+                  Become Affiliate
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/becomeAffiliate">Become Affiliate</NavBtnLink>
+              <NavBtnLink to="/becomeAffiliate">Sign in</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

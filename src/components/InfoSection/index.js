@@ -24,6 +24,7 @@ const InfoSection = ({
   headLine,
   darkText,
   description,
+  email,
   buttonLabel,
   img,
   alt,
@@ -40,8 +41,9 @@ const InfoSection = ({
               <TopLine>{topLine}</TopLine>
               <Heading lightText={lightText}>{headLine}</Heading>
               <Subtitle darkText={darkText}>{description}</Subtitle>
+              <Subtitle darkText={darkText}>{email}</Subtitle>
               <BtnWrap>
-                <Button
+                <Button name="boton" 
                   to="home"
                   smooth={true}
                   duration={500}
@@ -69,3 +71,4 @@ const InfoSection = ({
 };
 
 export default InfoSection;
+
