@@ -9,11 +9,11 @@ export const ServicesContainer = styled.div`
   align-items: center;
   background: #0100606;
 
-  @media screen and (max-width: 1000px) {
-    height: 1800px;
+  @media screen and (max-width: 1100px) {
+    height: 2050px;
   }
-  @media screen and (max-width: 768px) {
-    height: 3000px;
+  @media screen and (max-width: 800px) {
+    height: 3350px;
   }
 `;
 
@@ -26,12 +26,13 @@ export const ServicesWrapper = styled.div`
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 26px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0 0px;
   }
 `;
 
@@ -68,7 +69,7 @@ export const ServicesH1 = styled.h1`
   margin-bottom: 21px;
   margin-top: 64px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     font-size: 2rem;
   }
 `;
@@ -77,8 +78,8 @@ export const ServicesSubtitle = styled.h2`
   color: #000;
   margin-bottom: 64px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 2rem;
+  @media screen and (max-width: 800px) {
+    font-size: 1.15rem;
   }
 `;
 

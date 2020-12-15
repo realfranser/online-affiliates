@@ -31,8 +31,8 @@ export const ImageH1 = styled.h1`
   font-size: 48px;
   text-align: center;
 
-  @media screen and (max-width: 760px) {
-    font-size: 40px;
+  @media screen and (max-width: 800px) {
+    font-size: 38px;
   }
   @media screen and (max-width: 480) {
     font-size: 32px;
@@ -44,8 +44,8 @@ export const ImageH2 = styled.h2`
   font-size: 55px;
   text-align: center;
 
-  @media screen and (max-width: 760px) {
-    font-size: 48px;
+  @media screen and (max-width: 800px) {
+    font-size: 43px;
   }
   @media screen and (max-width: 480) {
     font-size: 40px;
@@ -59,7 +59,7 @@ export const ImageP = styled.p`
   text-align: center;
   max-width: 600px;
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 800px) {
     font-size: 24px;
   }
   @media screen and (max-width: 480) {
@@ -90,6 +90,14 @@ export const WithoutCodeButton = styled(Button)`
   background-color: #01bf71;
   color: #000;
   font-weight: 600;
+  font-size: 18px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 17px;
+  }
+  @media screen and (max-width: 480) {
+    font-size: 16px;
+  }
 
   &:hover {
     transition: all 0.2s ease-in-out;

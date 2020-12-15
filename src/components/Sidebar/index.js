@@ -22,13 +22,13 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
           </SidebarLink>
           <SidebarLink to="contactus" onClick={toggle}>
-            Contact us
+            How it works
           </SidebarLink>
           <SidebarLink to="getnotified" onClick={toggle}>
-            Get notified
+            Contact us
           </SidebarLink>
           <SidebarLink to="signin" onClick={toggle}>
-            Sign in
+            Become Affiliate
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

@@ -17,7 +17,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: false,
   topLine: "How it works",
-  headLine: "Get paid loging in the apps from services",
+  headLine: "Get paid logging in the apps from services",
   description: "Log in the apps listed in services section and receive considerable bonus. Follow the instructions and requirements asked by each website to claim your prize.",
   buttonLabel: "Check available bonus",
   imgStart: false, //false=imagen a la izquierda
