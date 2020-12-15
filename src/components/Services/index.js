@@ -2,6 +2,7 @@ import React from "react";
 import {
   ServicesContainer,
   ServicesH1,
+  ServicesSubtitle,
   ServicesWrapper,
   ServicesCard,
   ServicesIcon,
@@ -14,7 +15,8 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>AVAILABLE BONUS</ServicesH1>
+      <ServicesH1>Available bonus</ServicesH1>
+      <ServicesSubtitle>For a limited time only!</ServicesSubtitle>
       <ServicesWrapper>
         <ServicesCard>
           <CornerIcon>
