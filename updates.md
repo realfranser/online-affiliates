@@ -1,3 +1,7 @@
+## Fran 15/12
+
+- Para fotos sin copy: https://pixabay.com
+
 ## Pablo 24/11
 
 - Añadido navbar provisional al signup (idea de crear un navbar diferente que solo tenga el logo OA centrado que redirija a la pagina principal)
