@@ -1,11 +1,15 @@
 /*Define images path*/
-let moomoo = process.env.PUBLIC_URL + '/assets/moomoo.png';
+/*let moomoo = process.env.PUBLIC_URL + '/assets/brokers/moomoo.png';
 let mujerNegocios = process.env.PUBLIC_URL + '/assets/lateral/mujerNegocios.jpg';
 let onlineStore = process.env.PUBLIC_URL + '/assets/lateral/onlineStore.png';
 let movilNegocios = process.env.PUBLIC_URL + '/assets/lateral/movilNegocios.png';
 let megafonoDinero = process.env.PUBLIC_URL + '/assets/lateral/megafonoDinero.png';
 let affiliateMarketing = process.env.PUBLIC_URL + '/assets/lateral/affiliateMarketing.png';
 let contactUs = process.env.PUBLIC_URL + '/assets/lateral/contactUs.png';
+let comunicacionDosPersonas = process.env.PUBLIC_URL + '/assets/lateral/comunicacionDosPersonas.png';*/
+let ordenadorPremio = process.env.PUBLIC_URL + '/assets/lateral/ordenadorPremio.png';
+let ordenadorHerramienta = process.env.PUBLIC_URL + '/assets/lateral/ordenadorHerramienta.png';
+let bussinesmanOne = process.env.PUBLIC_URL + '/assets/lateral/bussinesmanOne.png';
 
 export const homeObjOne = {
   id: "contactus",
@@ -21,7 +25,7 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
-  img: `${mujerNegocios}`,
+  img: `${ordenadorPremio}`,
 };
 
 export const homeObjTwo = {
@@ -39,7 +43,7 @@ export const homeObjTwo = {
   dark: false,
   primary: true,
   darkText: true,
-  img: `${contactUs}`,
+  img: `${ordenadorHerramienta}`,
 };
 
 export const homeObjThree = {
@@ -56,5 +60,5 @@ export const homeObjThree = {
   dark: true,
   primary: true,
   darkText: false,
-  img: `${affiliateMarketing}`,
+  img: `${bussinesmanOne}`,
 };

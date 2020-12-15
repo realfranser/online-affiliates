@@ -23,7 +23,7 @@ const Services = () => {
             <Podium src={process.env.PUBLIC_URL + "/assets/podium/first.png"} />
           </CornerIcon>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/trading212dos.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/trading212dos.png"}
           />
           <ServicesH2>Trading 212</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
@@ -35,7 +35,7 @@ const Services = () => {
             />
           </CornerIcon>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/robinhood.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/robinhood.png"}
           />
           <ServicesH2>Robin Hood</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
@@ -45,43 +45,43 @@ const Services = () => {
             <Podium src={process.env.PUBLIC_URL + "/assets/podium/third.png"} />
           </CornerIcon>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/plus500dos.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/plus500dos.png"}
           />
           <ServicesH2>Plus 500</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/weBull.jpg"} />
+          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/brokers/weBull.jpg"} />
           <ServicesH2>Webull</ServicesH2>
           <ServicesP>Receive 3 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/moomoo.png"} />
+          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/brokers/moomoo.png"} />
           <ServicesH2>Moomoo</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/eToro.png"} />
+          <ServicesIcon src={process.env.PUBLIC_URL + "/assets/brokers/eToro.png"} />
           <ServicesH2>Etoro</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/trading212dos.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/trading212dos.png"}
           />
           <ServicesH2>Trading 212</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/robinhood.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/robinhood.png"}
           />
           <ServicesH2>Robin Hood</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
-            src={process.env.PUBLIC_URL + "/assets/plus500dos.png"}
+            src={process.env.PUBLIC_URL + "/assets/brokers/plus500dos.png"}
           />
           <ServicesH2>Plus 500</ServicesH2>
           <ServicesP>Receive 2 free stocks from 8 to 1600$</ServicesP>
