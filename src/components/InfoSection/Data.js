@@ -36,12 +36,12 @@ export const homeObjTwo = {
   topLine: "Contact us",
   headLine: "Still having any doubt?",
   description: "No problem, contact us through our email or check the FAQ section. Also, feel free to make us any suggestions. Help us improve our services !",
-  email: "Email: nuestromail@gmail.com",
+  email: "Email: onlineaffiliateweb@gmail.com",
   buttonLabel: "Copy email",
   imgStart: true, //false=imagen a la izquierda
   alt: "Savings",
   dark: false,
-  primary: true,
+  primary: false,
   darkText: true,
   img: `${ordenadorHerramienta}`,
 };
