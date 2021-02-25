@@ -1,5 +1,16 @@
 ## Docu and tools
 
+Página para imagenes SVG gratis y con colores propios: undraw.co (Se cuenta en el minuto 02:09:26)
+
+-Ver vídeo. Minuto 02:46:00
+Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+
+-Instalar librerías:
+
+> npm install styled-components
+
+> npm install react-icons --save
+
 -Framework: react.js v14.15.0 x64 link instalación -> https://nodejs.org/es/download/
 
 -Iconos para react: https://material-ui.com/
@@ -16,7 +27,7 @@ bootstrap@4.5.3
 
     >npm install jquery popper.js bootstrap
 
-- React Router DOM (Redireccionamiento para Multi-Pages Application)
+-React Router DOM (Redireccionamiento para Multi-Pages Application)
 
     >npm install react-router-dom
 

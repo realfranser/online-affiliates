@@ -1,4 +1,57 @@
+## Fran 15/12
+
+- Para fotos sin copy: https://pixabay.com
+
+## Pablo 24/11
+
+- Añadido navbar provisional al signup (idea de crear un navbar diferente que solo tenga el logo OA centrado que redirija a la pagina principal)
+- Cambio en el navbar se quita support (ira en footer) metemos services que redirige a los servicios (brokers)
+- Se añade la propiedad que impide que los textos e imagenes de los brokers se puedan seleccionar (queda bastante feo por estetica)
+- Solucionado el problema de que cuando pulsabas en un link del navbar la linea horizontal inferior se situaba en la categoria anterior
+- Arreglado el desplazamiento desde el boton de "Start without code" (antes no se desplazaba lo suficiente y no se marcaba la barra horizontal inferior de Services)
+- Modificado tambien el SideBar para que se quede igual de actualizado que el NavBar
+
+## Fran 22/11
+
+- Creadas 3 tarjetas de 3 brokers
+- Intenta meter los brokers que falten y haz que cuadren los tamanyos y todo eso
+- Me voy al tenis, volvere por la tarde
+
+## Fran 21/11
+
+- Modificado footer
+- Modificada cabecera
+- Son las 9 de la noche, por ahora no he avanzado a penas en el video, sigo despues
+- Hay que hacer funcional la barra de busqueda de codigo y decorarla
+- Arreglado problema de los links que no funcionaban
+
+## Fran 18/11
+
+- Anyadidos issues a revisar, problemas de compilacion solucionados
+- He avanzado hasta el minuto que pone en el mensaje del commit (3:06)
+- Son las 10:30 de la tarde vuelvo en un rato
+
+## Fran y Pablo 14/11
+
+- Avanzamos con el código de la página
+
+## Fran 14/11
+
+- Solucionado problemas de merge ( había una rama 1.0 rara por ahí ).
+
+## Fran 11/11
+
+- Instalar librerías:
+
+  > npm install styled-components
+  > npm install react-icons --save
+
+- Ver vídeo:
+  Minuto 02:06:00 -> Introducción de un video de background reproducido en bucle
+  Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+
 ## Cambios realizados Pablo 11/11 ¡MIRAR README para importar RRD!
+
 - Investigación React Router DOM para el redireccionamiento de las MPA (Multi Pages Application), para los links de acerca de, contacto...
 
 - Creacion de páginas temporales de contacto...
@@ -8,6 +61,7 @@
 - Estilo de los <a> cambiado en index.css (se elimina el subrayado y el color azul de los típicos links para que quede acorde con el estilo de la página)
 
 ## Cambios realizados Pablo 07/11
+
 - Introduccion de un BR entre descripcion y codigo para que haya algo de separacion (se veia todo muy junto)
 
 - Repaso general de la página, comentario sobre el uso de los px en archivo Media.docx (problemas de visualizacion en diferentes dispositivos, y explicacion con capturas). SE PUEDE BORRAR CUANDO SE LEA
