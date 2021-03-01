@@ -61,6 +61,9 @@ export const ServicesIcon = styled.img`
   height: 190px;
   width: 190px;
   margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 `;
 
 export const ServicesH1 = styled.h1`
@@ -86,6 +89,7 @@ export const ServicesSubtitle = styled.h2`
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const ServicesP = styled.p`
