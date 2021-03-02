@@ -1,9 +1,6 @@
 ## Docu and tools
 
-Página para imagenes SVG gratis y con colores propios: undraw.co (Se cuenta en el minuto 02:09:26)
-
--Ver vídeo. Minuto 02:46:00
-Link: https://www.youtube.com/watch?v=Nl54MJDR2p8&t=18s
+Página para imagenes SVG gratis y con colores propios: undraw.co
 
 -Instalar librerías:
 

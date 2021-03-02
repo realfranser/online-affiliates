@@ -1,14 +1,15 @@
 {
+  "homepage": "http://realfranser.github.io/webasociates",
   "name": "webasociates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6.0",
     "install": "^0.13.0",
     "jquery": "^3.5.1",
     "npm": "^6.14.8",
@@ -23,6 +24,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm rum build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,5 +53,8 @@
     "grisOA": "#c3c3c3",
     "verdeDolar": "#85bb65",
     "verdeIluminado": "#01bf71"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
