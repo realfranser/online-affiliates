@@ -48,16 +48,16 @@ const Navbar = ({ toggle }) => {
               <img
                 src={
                   process.env.PUBLIC_URL +
-                  "logosOA/oalogoGrisVerdeIluminado.png"
+                  "logosOA/oalogoGrisVerdeiluminado.ico"
                 }
                 onMouseOver={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logosOA/oalogoFondoNegro.png")
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL + "logosOA/oalogoFondoNegro.png")
                 }
                 onMouseOut={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL +
-                    "logosOA/oalogoGrisVerdeIluminado.png")
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL +
+                  "logosOA/oalogoGrisVerdeIluminado.png")
                 }
                 style={{ height: 50 }}
               />
