@@ -30,7 +30,7 @@ bootstrap@4.5.3
 
 -Posibles nombres web: www.onlineaffiliate.com
 
-### Global library intalation command
+### Global library instalation command
 > npm install styled-components && npm install react-icons --save && npm install @material-ui/core && npm install @material-ui/icons && npm install react-scroll && npm install jquery popper.js bootstrap && npm install react-router-dom
 
 ## Ideas
