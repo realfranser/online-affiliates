@@ -93,7 +93,7 @@ const Footer = () => {
                 <FacebookIcon />
               </SocialIconLink>
               <SocialIconLink
-                href="//www.twitter.com/realfranser"
+                href="//www.instagram.com/realfranser"
                 target="_blank"
                 aria-label="Instagram"
               >
