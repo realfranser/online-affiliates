@@ -20,6 +20,8 @@ import {
   YoutubeIcon,
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
+import logo1 from "./images/logoFooter.png"
+import logo2 from "./images/logoHoverFooter.png"
 
 const toggleHome = () => {
   scroll.scrollToTop();
@@ -75,15 +77,11 @@ const Footer = () => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
               <img
-                src={process.env.PUBLIC_URL + "logosOA/logoFooter.png"}
+                src={logo1}
                 onMouseOver={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logosOA/logoHoverFooter.png")
-                }
+                  (e.currentTarget.src = logo2)}
                 onMouseOut={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logosOA/logoFooter.png")
-                }
+                  (e.currentTarget.src = logo1)}
                 style={{ height: 50 }}
               />
             </SocialLogo>
@@ -91,7 +89,7 @@ const Footer = () => {
               OnlineAffiliates Ⓒ {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink href="//www.facebook.com/Trading212" target="_blank" aria-label="Facebook">
                 <FacebookIcon />
               </SocialIconLink>
               <SocialIconLink
@@ -101,10 +99,10 @@ const Footer = () => {
               >
                 <InstagramIcon />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="YouTube">
+              <SocialIconLink href="//www.youtube.com/watch?v=vkbP0hcFhl8" target="_blank" aria-label="YouTube">
                 <YoutubeIcon />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <SocialIconLink href="//www.twitter.com/Trading212" target="_blank" aria-label="Twitter">
                 <TwitterIcon />
               </SocialIconLink>
             </SocialIcons>

@@ -3,6 +3,7 @@ import { MdKeyboardArrowDown, MdArrowDownward } from "react-icons/md";
 import { coloresOA } from "../../../package.json";
 import { Button } from "../ButtonElements";
 import { SearchBar } from "../SearchBar";
+import { Link as LinkS } from "react-scroll";
 
 export const ImageContainer = styled.div`
   background: white;
@@ -16,7 +17,7 @@ export const ImageContainer = styled.div`
   margin-top: -175px;
 `;
 
-export const ImageContent = styled.div`
+export const ImageContent = styled.div`G
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -106,4 +107,21 @@ export const WithoutCodeButton = styled(Button)`
   }
 `;
 
+export const NavLinks = styled(LinkS)`
+  height: 240px;
+  width: 380px;
+  margin-top: 550px;
+  align-items: center;
+`;
+export const CoverImage = styled.img`
+  object-fit: cover;
+  height: 240px;
+  width: 380px;
+  align-items: center;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.11);
+  }
+`;
 export const MeterCodigo = styled(SearchBar)``;

@@ -9,10 +9,13 @@ import {
   ElementoInvisible,
   WithoutCodeButton,
   MeterCodigo,
+  CoverImage,
+  NavLinks,
 } from "./ImagesElements";
 import { animateScroll as scroll } from "react-scroll";
 import Services from "../Services";
 import { FaSignInAlt } from "react-icons/fa";
+import cover_image from './images/ecomerce.png';
 
 const ImagesElements = () => {
   const [hover, setHover] = useState(false);
@@ -63,6 +66,16 @@ const ImagesElements = () => {
           </WithoutCodeButton>
         </ImageBtnWrapper>
       </ImageContent>
+      <NavLinks
+        to="signin"
+        smooth={true}
+        duration={500}
+        spy={true}
+        exact="true"
+        offset={10}
+      >
+        <CoverImage src={cover_image} alt="E-commerce logo" title="Create your own account" />
+      </NavLinks>
     </ImageContainer>
   );
 };

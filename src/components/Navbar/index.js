@@ -16,6 +16,8 @@ import {
   NavBlank,
   NavBlankLinks,
 } from "./NavbarElements";
+import logo1 from "./images/oalogoGrisVerdeIluminado.png";
+import logo2 from "./images/oalogoFondoNegro.png";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -46,19 +48,11 @@ const Navbar = ({ toggle }) => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
               <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "logosOA/oalogoGrisVerdeiluminado.ico"
-                }
+                src={logo1}
                 onMouseOver={(e) =>
-                (e.currentTarget.src =
-                  process.env.PUBLIC_URL + "logosOA/oalogoFondoNegro.png")
-                }
+                  (e.currentTarget.src = logo2)}
                 onMouseOut={(e) =>
-                (e.currentTarget.src =
-                  process.env.PUBLIC_URL +
-                  "logosOA/oalogoGrisVerdeIluminado.png")
-                }
+                  (e.currentTarget.src = logo1)}
                 style={{ height: 50 }}
               />
             </NavLogo>
