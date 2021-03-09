@@ -77,12 +77,12 @@ const Footer = () => {
               <img
                 src={process.env.PUBLIC_URL + "logosOA/logoFooter.png"}
                 onMouseOver={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logosOA/logoHoverFooter.png")
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL + "logosOA/logoHoverFooter.png")
                 }
                 onMouseOut={(e) =>
-                  (e.currentTarget.src =
-                    process.env.PUBLIC_URL + "logosOA/logoFooter.png")
+                (e.currentTarget.src =
+                  process.env.PUBLIC_URL + "logosOA/logoFooter.png")
                 }
                 style={{ height: 50 }}
               />
