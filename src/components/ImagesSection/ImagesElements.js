@@ -14,10 +14,10 @@ export const ImageContainer = styled.div`
   height: 1000px;
   position: relative;
   z-index: 1;
-  margin-top: -175px;
+  margin-top: -115px;
 `;
 
-export const ImageContent = styled.div`G
+export const ImageContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
