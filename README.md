@@ -1,5 +1,7 @@
 ## Docu and tools
 
+### Solve deployment: https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
+
 Página para imagenes SVG gratis y con colores propios: undraw.co
 
 -Instalar librerías:
