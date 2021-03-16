@@ -11,6 +11,7 @@ import {
   MeterCodigo,
   CoverImage,
   NavLinks,
+  SubText,
 } from "./ImagesElements";
 import { animateScroll as scroll } from "react-scroll";
 import Services from "../Services";
@@ -67,13 +68,14 @@ const ImagesElements = () => {
           </WithoutCodeButton>
         </ImageBtnWrapper>
         <div style={{ marginTop: 75 }}>
-          <h3 style={{ width: 550, textAlign: "center", fontWeight: "normal" }}>Check our services and available bonus, click on the apps more
-          suited for you, register using our affiliate link and ...
+          <SubText>
+            Check our services and available bonus, click on the apps more
+            suited for you, register using our affiliate link and ...
           <br />
             <h4 style={{ fontWeight: "bold", marginTop: 15 }}>
               Start making money with free stocks!
             </h4>
-          </h3>
+          </SubText>
         </div>
       </ImageContent>
     </ImageContainer>
