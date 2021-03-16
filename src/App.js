@@ -1,18 +1,21 @@
-import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";
-import BecomeAffiliatePage from "./pages/becomeAffiliate";
+import becomeAffiliate from "./pages/becomeAffiliate";
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/becomeAffiliate" component={BecomeAffiliatePage} exact />
-      </Switch>
-    </Router>
-  );
+/* Testing new methods */
+import React, { Component } from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
+
+class App extends Component {
+  render() {
+    return (
+      <HashRouter basename="/">
+        <Route exact path="/" component={Home} />
+        <Route path="/becomeAffiliate" component={becomeAffiliate} />
+
+      </HashRouter>
+    )
+  }
 }
 
 export default App;

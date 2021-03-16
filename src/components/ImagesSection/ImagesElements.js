@@ -125,3 +125,18 @@ export const CoverImage = styled.img`
   }
 `;
 export const MeterCodigo = styled(SearchBar)``;
+
+export const SubText = styled.h3`
+  width: 550px;
+  text-align: center;
+  font-weight: normal;
+
+  @media screen and (max-width: 800px) {
+    font-size: 21px;
+    widht: 380px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 17px;
+    width: 320px;
+`
