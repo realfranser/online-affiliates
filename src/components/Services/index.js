@@ -23,7 +23,7 @@ const Services = () => {
           <CornerIcon>
             <Podium src={process.env.PUBLIC_URL + "/assets/podium/first.png"} />
           </CornerIcon>
-          <a href='https://www.trading212.com/' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <a href='https://www.trading212.com/invite/11PpBIEvFW' style={{ textDecoration: 'none', color: 'inherit' }}>
             <ServicesIcon
               src={process.env.PUBLIC_URL + "/assets/brokers/trading212dos.png"}
             />
