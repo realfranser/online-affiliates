@@ -1,13 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { coloresOA } from "../../../package.json";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { coloresOA } from "../../styles/colors";
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const grisOA = coloresOA.grisOA;
 

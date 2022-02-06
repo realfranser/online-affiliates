@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-import { coloresOA } from "../../../package.json";
+import { coloresOA } from "../../styles/colors";
 
-var verdeDolar = coloresOA.verdeDolar;
 var verdeIluminado = coloresOA.verdeIluminado;
 var grisOA = coloresOA.grisOA;
 

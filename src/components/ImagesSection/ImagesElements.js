@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { MdKeyboardArrowDown, MdArrowDownward } from "react-icons/md";
-import { coloresOA } from "../../../package.json";
 import { Button } from "../ButtonElements";
 import { SearchBar } from "../SearchBar";
 import { Link as LinkS } from "react-scroll";
@@ -139,4 +138,4 @@ export const SubText = styled.h3`
   @media screen and (max-width: 480px) {
     font-size: 17px;
     width: 320px;
-`
+`;

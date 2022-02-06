@@ -49,11 +49,6 @@
       "last 1 safari version"
     ]
   },
-  "coloresOA": {
-    "grisOA": "#c3c3c3",
-    "verdeDolar": "#85bb65",
-    "verdeIluminado": "#01bf71"
-  },
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
