@@ -5,19 +5,9 @@ import {
   ImageContent,
   ImageH1,
   ImageH2,
-  ImageP,
-  ElementoInvisible,
   WithoutCodeButton,
-  MeterCodigo,
-  CoverImage,
-  NavLinks,
   SubText,
 } from "./ImagesElements";
-import { animateScroll as scroll } from "react-scroll";
-import Services from "../Services";
-import { FaSignInAlt } from "react-icons/fa";
-import cover_image from './images/ecomerce.png';
-import { CenterFocusStrong, Description } from "@material-ui/icons";
 
 const ImagesElements = () => {
   const [hover, setHover] = useState(false);
@@ -25,7 +15,7 @@ const ImagesElements = () => {
   const onHover = () => {
     setHover(!hover);
   };
-  const [scrollNav, setScrollNav] = useState(false);
+  const [, setScrollNav] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -39,9 +29,6 @@ const ImagesElements = () => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
   return (
     <ImageContainer>
       <ImageContent>
@@ -71,7 +58,7 @@ const ImagesElements = () => {
           <SubText>
             Check our services and available bonus, click on the apps more
             suited for you, register using our affiliate link and ...
-          <br />
+            <br />
             <h4 style={{ fontWeight: "bold", marginTop: 15 }}>
               Start making money with free stocks!
             </h4>

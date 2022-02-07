@@ -1,4 +1,3 @@
-import { ToggleOff } from "@material-ui/icons";
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
@@ -48,11 +47,10 @@ const Navbar = ({ toggle }) => {
                ,hacer que refresque la pagina
                y hacer que se ilumine cuando se pasa por encima de NavLogo*/}
               <img
+                alt="logo"
                 src={logo1}
-                onMouseOver={(e) =>
-                  (e.currentTarget.src = logo2)}
-                onMouseOut={(e) =>
-                  (e.currentTarget.src = logo1)}
+                onMouseOver={(e) => (e.currentTarget.src = logo2)}
+                onMouseOut={(e) => (e.currentTarget.src = logo1)}
                 style={{ height: 50 }}
               />
             </NavLogo>
