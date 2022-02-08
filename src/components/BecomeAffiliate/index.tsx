@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FormButton,
   FormContent,
@@ -10,7 +9,7 @@ import {
   FormInput,
   Text,
   Form,
-} from "./BecomeAffiliateElements";
+} from './BecomeAffiliateElements';
 
 const BecomeAffiliate = () => {
   return (

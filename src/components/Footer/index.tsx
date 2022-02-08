@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FooterContainer,
   FooterWrap,
@@ -17,10 +16,9 @@ import {
   TwitterIcon,
   InstagramIcon,
   YoutubeIcon,
-} from "./FooterElements";
-import { animateScroll as scroll } from "react-scroll";
-import logo1 from "./images/logoFooter.png";
-import logo2 from "./images/logoHoverFooter.png";
+} from './FooterElements';
+import { animateScroll as scroll } from 'react-scroll';
+import { logo1, logo2 } from './images/index';
 
 const toggleHome = () => {
   scroll.scrollToTop();

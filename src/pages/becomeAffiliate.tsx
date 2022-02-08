@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import BecomeAffiliate from "../components/BecomeAffiliate";
-import ScrollToTop from "../components/ScrollToTop";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
+import React, { useState } from 'react';
+import BecomeAffiliate from '../components/BecomeAffiliate';
+import ScrollToTop from '../components/ScrollToTop';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 
 const BecomeAffiliatePage = () => {
   const [isOpen, setIsOpen] = useState(false);
