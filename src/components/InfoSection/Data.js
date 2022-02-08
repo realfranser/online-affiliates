@@ -7,9 +7,9 @@ let megafonoDinero = process.env.PUBLIC_URL + '/assets/lateral/megafonoDinero.pn
 let affiliateMarketing = process.env.PUBLIC_URL + '/assets/lateral/affiliateMarketing.png';
 let contactUs = process.env.PUBLIC_URL + '/assets/lateral/contactUs.png';
 let comunicacionDosPersonas = process.env.PUBLIC_URL + '/assets/lateral/comunicacionDosPersonas.png';*/
-let ordenadorPremio = process.env.PUBLIC_URL + '/assets/lateral/ordenadorPremio.png';
-let ordenadorHerramienta = process.env.PUBLIC_URL + '/assets/lateral/ordenadorHerramienta.png';
-let bussinesmanOne = process.env.PUBLIC_URL + '/assets/lateral/bussinesmanOne.png';
+let ordenadorPremio = "src/assets/lateral/ordenadorPremio.png";
+let ordenadorHerramienta = "src/assets/lateral/ordenadorHerramienta.png";
+let bussinesmanOne = "src/assets/lateral/bussinesmanOne.png";
 
 export const homeObjOne = {
   id: "contactus",
@@ -18,7 +18,8 @@ export const homeObjOne = {
   lightTextDesc: false,
   topLine: "How it works",
   headLine: "Get paid logging in the apps from services",
-  description: "Log in the apps listed in services section and receive considerable bonus. Follow the instructions and requirements asked by each website to claim your prize.",
+  description:
+    "Log in the apps listed in services section and receive considerable bonus. Follow the instructions and requirements asked by each website to claim your prize.",
   buttonLabel: "Check available bonus",
   imgStart: false, //false=imagen a la izquierda
   alt: "Contact",
@@ -35,7 +36,8 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: "Contact us",
   headLine: "Still having any doubt?",
-  description: "No problem, contact us through our email or check the FAQ section. Also, feel free to make us any suggestions. Help us improve our services !",
+  description:
+    "No problem, contact us through our email or check the FAQ section. Also, feel free to make us any suggestions. Help us improve our services !",
   email: "Email: onlineaffiliateweb@gmail.com",
   buttonLabel: "Copy email",
   imgStart: true, //false=imagen a la izquierda
@@ -53,7 +55,8 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: "Become affiliate",
   headLine: "Create your own affiliate account",
-  description: "If you are a content creator who wants to create a new source of income... Request your affiliate account ! This is a free service that allows any creator, who suits our requirements, to have their own online affiliates link and make money sharing it.",
+  description:
+    "If you are a content creator who wants to create a new source of income... Request your affiliate account ! This is a free service that allows any creator, who suits our requirements, to have their own online affiliates link and make money sharing it.",
   buttonLabel: "Get Started",
   imgStart: false, //false=imagen a la izquierda
   alt: "Savings",
